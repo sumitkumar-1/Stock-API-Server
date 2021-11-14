@@ -1,0 +1,14 @@
+# This server Provides below API for intra-day Stock Data
+
+/Stock/api/v1/allStocks/
+/Stock/api/v1/topStocks/:records
+/Stock/api/v1/allStocks/:symbol
+
+# All the API will provide JSON based response
+
+# ensure you have node installed and then run below command to start the stock server
+
+npm install
+npm run start
+
+this will start stock server on http://localhost:8010
